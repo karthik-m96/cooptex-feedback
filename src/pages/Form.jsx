@@ -1,12 +1,11 @@
 import React from "react";
 import Phone from "../components/Phone/Phone";
-import Navbar from "../components/Navbar/Navbar";
+import "./Form.scss"
 
 const Form = () => {
   return (
-    <div className="container">
-      <Navbar />
-      <form className="form">
+    <div className="form">
+      <form className="container">
         <Phone />
         <button type="submit">Submit</button>
       </form>
