@@ -1,5 +1,5 @@
 import React from "react";
-import Phone from "../components/Phone";
+import Phone from "../components/Phone/Phone";
 import Navbar from "../components/Navbar/Navbar";
 
 const Form = () => {
