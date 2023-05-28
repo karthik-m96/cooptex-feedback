@@ -1,19 +1,23 @@
 import React, { useState } from "react";
-import "./Phone.scss";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 const Phone = () => {
+  
   const [phone, setPhone] = useState("");
 
   return (
-    <div className="phone">
+    <div>
       <label htmlFor="phone">Phone number:</label>
-      <div className="phoneInput">
-        <select name="country" id="country">
-          <option value="+91" selected>+91</option>
-          <option value="name"></option>
-        </select>
-        <input type="text" placeholder="Enter your phone number"/>
-      </div>
+      <PhoneInput
+        id="phone"
+        name="phone"
+        country="in"
+        value={phone}
+        onChange={setPhone}
+        preferredCountries={["in", "us"]}
+        required
+      />
     </div>
   );
 };

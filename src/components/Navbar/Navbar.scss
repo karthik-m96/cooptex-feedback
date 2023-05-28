@@ -1,24 +1,11 @@
-.navbar {
+.wrapper {
   display: flex;
-  justify-content: center;
+  position: absolute;
+  left: 15%;
 
-    .wrapper {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #faffc7;
-      width: 800px;
-      height: 100px;
-    }
-
-    &:hover {
-      color: #EF7986;
-      cursor: pointer;
-    }
-
-    .logo {
-      width: 70px;
-      height: 100px;
-      padding-right: 10px;
-    }
+  .logo {
+    width: 70px;
+    height: 100px;
+    padding-right: 5px;
   }
+}
