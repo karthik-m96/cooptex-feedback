@@ -3,8 +3,6 @@ import "./Form.scss";
 import Phone from "../../components/Phone/Phone";
 
 const Form = () => {
-
-
   return (
     <div className="form">
       <form className="container">
@@ -31,7 +29,12 @@ const Form = () => {
               Please rate the quality of service you received from the Cooptex:
             </label>
             <br />
-            <input type="radio" id="qos-excellent" name="qos" value="excellent" />
+            <input
+              type="radio"
+              id="qos-excellent"
+              name="qos"
+              value="excellent"
+            />
             <label htmlFor="qos-excellent">Excellent</label>
             <input type="radio" id="qos-good" name="qos" value="good" />
             <label htmlFor="qos-good">Good</label>
@@ -43,7 +46,12 @@ const Form = () => {
           <div className="pos">
             <label htmlFor="pos">Please rate the quality of our product:</label>
             <br />
-            <input type="radio" id="pos-excellent" name="pos" value="excellent" />
+            <input
+              type="radio"
+              id="pos-excellent"
+              name="pos"
+              value="excellent"
+            />
             <label htmlFor="pos-excellent">Excellent</label>
             <input type="radio" id="pos-good" name="pos" value="good" />
             <label htmlFor="pos-good">Good</label>
@@ -55,7 +63,12 @@ const Form = () => {
           <div className="clean">
             <label for="clean">Was our premises clean?</label>
             <br />
-            <input type="radio" id="cl-excellent" name="clean" value="excellent" />
+            <input
+              type="radio"
+              id="cl-excellent"
+              name="clean"
+              value="excellent"
+            />
             <label htmlFor="cl-excellent">Excellent</label>
             <input type="radio" id="cl-good" name="clean" value="good" />
             <label htmlFor="cl-good">Good</label>
@@ -69,7 +82,12 @@ const Form = () => {
               Please rate your overall shopping experience?
             </label>
             <br />
-            <input type="radio" id="exp-excellent" name="exp" value="excellent" />
+            <input
+              type="radio"
+              id="exp-excellent"
+              name="exp"
+              value="excellent"
+            />
             <label htmlFor="exp-excellent">Excellent</label>
             <input type="radio" id="exp-good" name="exp" value="good" />
             <label htmlFor="exp-good">Good</label>

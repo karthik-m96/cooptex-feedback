@@ -20,8 +20,11 @@
     }
   }
 
-  .questions {
+  .qos, .pos, .clean, .exp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  button{
     margin-top: 20px;
-    margin-bottom: 20px;
   }
 }
