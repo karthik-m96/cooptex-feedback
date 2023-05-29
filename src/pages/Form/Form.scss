@@ -5,18 +5,21 @@
   position: absolute;
   top: 20%;
   left: 50%;
+  border-radius: 10px;
 
   .nameEmail {
     display: flex;
-    gap: 100px;
+    gap: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
     input {
-      line-height: 25px;
+      line-height: 33px;
       border-radius: 5px;
       border: 1px solid lightgray;
       width: 200px;
       margin-top: 5px;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
   }
 
@@ -24,8 +27,8 @@
   .pos,
   .clean,
   .exp {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
     .check {
       display: flex;
@@ -45,6 +48,23 @@
       cursor: pointer;
     }
   }
+
+  button {
+    font-family: poppins, sans-serif;
+    background-color: #ffb90f;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 25px;
+
+    &:hover {
+      background-color: #ffb90f;
+      border: 1px solid #ff8500;
+      cursor: pointer;
+    }
+  }
 }
 
 .left {
@@ -52,7 +72,7 @@
   padding: 5px 20px;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 1%;
 
   .heading {
     font-size: 40px;
@@ -61,5 +81,11 @@
 
   .feedText {
     color: #ffb90f;
+  }
+
+  img{
+    width: 600px;
+    height: 55px;
+    border-radius: 10px;
   }
 }

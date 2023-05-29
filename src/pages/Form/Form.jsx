@@ -12,6 +12,9 @@ const Form = () => {
             Us your <span className="feedText">Feedback.</span>
           </div>
         </div>
+        <div className="img">
+          <img src="/img/cooptex.jpg" alt="" />
+        </div>
       </div>
       <div className="right">
         <form className="container">
@@ -44,7 +47,7 @@ const Form = () => {
             </div>
           </div>
           <Phone />
-          <div className="questions" aria-required>
+          <div className="questions">
             <div className="qos">
               <label htmlfor="qos">
                 Please rate the quality of service you received from the
