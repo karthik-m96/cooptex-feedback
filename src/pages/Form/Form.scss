@@ -1,5 +1,5 @@
 .form {
-  background-color: ivory;
+  background-color: rgb(249, 249, 249);
   max-width: 600px;
   padding: 20px;
   position: absolute;
@@ -16,6 +16,12 @@
       border: 1px solid lightgray;
       width: 200px;
       margin-top: 5px;
+      margin-bottom: 10px;
     }
+  }
+
+  .questions {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
