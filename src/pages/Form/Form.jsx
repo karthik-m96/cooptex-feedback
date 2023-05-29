@@ -1,7 +1,6 @@
 import React from "react";
 import "./Form.scss";
 import Phone from "../../components/Phone/Phone";
-import Email from "email-validator";
 
 const Form = () => {
 
