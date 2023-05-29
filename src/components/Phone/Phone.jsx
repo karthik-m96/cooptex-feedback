@@ -16,7 +16,7 @@ const Phone = () => {
         country="in"
         value={phone}
         onChange={setPhone}
-        preferredCountries={["in", "us"]}
+        preferredCountries={["in"]}
         required
         />
       </div>

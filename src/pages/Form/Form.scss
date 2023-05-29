@@ -1,6 +1,21 @@
 .form {
-  border: 1px solid black;
+  background-color: ivory;
+  max-width: 600px;
+  padding: 20px;
   position: absolute;
-  top: 50%;
-  right:20%;
+  top: 20%;
+  left: 50%;
+
+  .nameEmail {
+    display: flex;
+    gap: 100px;
+
+    input {
+      line-height: 25px;
+      border-radius: 5px;
+      border: 1px solid lightgray;
+      width: 200px;
+      margin-top: 5px;
+    }
+  }
 }
