@@ -69,14 +69,14 @@ const Form = () => {
               Please rate your overall shopping experience?
             </label>
             <br />
-            <input type="radio" id="excellent" name="qos" value="qos" />
-            <label htmlFor="excellent">Excellent</label>
-            <input type="radio" id="good" name="qos" value="good" />
-            <label htmlFor="good">Good</label>
-            <input type="radio" id="fair" name="qos" value="fair" />
-            <label htmlFor="fair">Fair</label>
-            <input type="radio" id="bad" name="qos" value="bad" />
-            <label htmlFor="bad">Bad</label>
+            <input type="radio" id="exp-excellent" name="exp" value="excellent" />
+            <label htmlFor="exp-excellent">Excellent</label>
+            <input type="radio" id="exp-good" name="exp" value="good" />
+            <label htmlFor="exp-good">Good</label>
+            <input type="radio" id="exp-fair" name="exp" value="fair" />
+            <label htmlFor="exp-fair">Fair</label>
+            <input type="radio" id="exp-bad" name="exp" value="bad" />
+            <label htmlFor="exp-bad">Bad</label>
           </div>
         </div>
         <button type="submit">Submit</button>
