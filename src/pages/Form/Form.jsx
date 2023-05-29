@@ -31,37 +31,37 @@ const Form = () => {
               Please rate the quality of service you received from the Cooptex:
             </label>
             <br />
-            <input type="radio" id="qos-excellent" name="qos" value="qos" />
+            <input type="radio" id="qos-excellent" name="qos" value="excellent" />
             <label htmlFor="qos-excellent">Excellent</label>
             <input type="radio" id="qos-good" name="qos" value="good" />
             <label htmlFor="qos-good">Good</label>
-            <input type="radio" id="fair" name="qos" value="fair" />
+            <input type="radio" id="qos-fair" name="qos" value="fair" />
             <label htmlFor="qos-fair">Fair</label>
-            <input type="radio" id="bad" name="qos" value="bad" />
+            <input type="radio" id="qos-bad" name="qos" value="bad" />
             <label htmlFor="qos-bad">Bad</label>
           </div>
           <div className="pos">
             <label htmlFor="pos">Please rate the quality of our product:</label>
             <br />
-            <input type="radio" id="pos-excellent" name="qos" value="qos" />
+            <input type="radio" id="pos-excellent" name="pos" value="excellent" />
             <label htmlFor="pos-excellent">Excellent</label>
-            <input type="radio" id="pos-good" name="qos" value="good" />
+            <input type="radio" id="pos-good" name="pos" value="good" />
             <label htmlFor="pos-good">Good</label>
-            <input type="radio" id="pos-fair" name="qos" value="fair" />
+            <input type="radio" id="pos-fair" name="pos" value="fair" />
             <label htmlFor="pos-fair">Fair</label>
-            <input type="radio" id="pos-bad" name="qos" value="bad" />
+            <input type="radio" id="pos-bad" name="pos" value="bad" />
             <label htmlFor="pos-bad">Bad</label>
           </div>
           <div className="clean">
             <label for="clean">Was our premises clean?</label>
             <br />
-            <input type="radio" id="cl-excellent" name="clean" value="clean" />
+            <input type="radio" id="cl-excellent" name="clean" value="excellent" />
             <label htmlFor="cl-excellent">Excellent</label>
-            <input type="radio" id="cl-good" name="clean" value="clean" />
+            <input type="radio" id="cl-good" name="clean" value="good" />
             <label htmlFor="cl-good">Good</label>
-            <input type="radio" id="cl-fair" name="clean" value="clean" />
+            <input type="radio" id="cl-fair" name="clean" value="fair" />
             <label htmlFor="cl-fair">Fair</label>
-            <input type="radio" id="cl-bad" name="clean" value="clean" />
+            <input type="radio" id="cl-bad" name="clean" value="bad" />
             <label htmlFor="cl-bad">Bad</label>
           </div>
           <div className="shopExp">
