@@ -1,6 +1,6 @@
 import React from "react";
 import "./Form.scss";
-import Phone from "../../components/Phone/Phone";   
+import Phone from "../../components/Phone/Phone";
 
 const Form = () => {
   return (
@@ -12,8 +12,12 @@ const Form = () => {
             Us your <span className="feedText">Feedback.</span>
           </div>
         </div>
+        <p className="para">
+          We are commited to providing you with the best shopping experience
+          possible, so we welcome your comments.
+        </p>
         <div className="img">
-          <img src="/img/cooptex.jpg" alt="" />
+          <img src="/img/cooptex cropped.jpg" alt="" />
         </div>
       </div>
       <div className="right">
@@ -38,7 +42,7 @@ const Form = () => {
               <label htmlFor="email">Email Address:</label>
               <br />
               <input
-                type="text"
+                type="email"
                 name="email"
                 id="email"
                 required
