@@ -60,17 +60,36 @@ const Form = () => {
               <br />
               <div className="check">
                 <input
-                  type="checkbox"
+                  type="radio"
                   id="qos-excellent"
                   name="qos"
                   value="excellent"
+                  required
                 />
                 <label htmlFor="qos-excellent">Excellent</label>
-                <input type="checkbox" id="qos-good" name="qos" value="good" />
+                <input
+                  type="radio"
+                  id="qos-good"
+                  name="qos"
+                  value="good"
+                  required
+                />
                 <label htmlFor="qos-good">Good</label>
-                <input type="checkbox" id="qos-fair" name="qos" value="fair" />
+                <input
+                  type="radio"
+                  id="qos-fair"
+                  name="qos"
+                  value="fair"
+                  required
+                />
                 <label htmlFor="qos-fair">Fair</label>
-                <input type="checkbox" id="qos-bad" name="qos" value="bad" />
+                <input
+                  type="radio"
+                  id="qos-bad"
+                  name="qos"
+                  value="bad"
+                  required
+                />
                 <label htmlFor="qos-bad">Bad</label>
               </div>
             </div>
@@ -81,17 +100,36 @@ const Form = () => {
               <br />
               <div className="check">
                 <input
-                  type="checkbox"
+                  type="radio"
                   id="pos-excellent"
                   name="pos"
                   value="excellent"
+                  required
                 />
                 <label htmlFor="pos-excellent">Excellent</label>
-                <input type="checkbox" id="pos-good" name="pos" value="good" />
+                <input
+                  type="radio"
+                  id="pos-good"
+                  name="pos"
+                  value="good"
+                  required
+                />
                 <label htmlFor="pos-good">Good</label>
-                <input type="checkbox" id="pos-fair" name="pos" value="fair" />
+                <input
+                  type="radio"
+                  id="pos-fair"
+                  name="pos"
+                  value="fair"
+                  required
+                />
                 <label htmlFor="pos-fair">Fair</label>
-                <input type="checkbox" id="pos-bad" name="pos" value="bad" />
+                <input
+                  type="radio"
+                  id="pos-bad"
+                  name="pos"
+                  value="bad"
+                  required
+                />
                 <label htmlFor="pos-bad">Bad</label>
               </div>
             </div>
@@ -100,17 +138,36 @@ const Form = () => {
               <br />
               <div className="check">
                 <input
-                  type="checkbox"
+                  type="radio"
                   id="cl-excellent"
                   name="clean"
                   value="excellent"
+                  required
                 />
                 <label htmlFor="cl-excellent">Excellent</label>
-                <input type="checkbox" id="cl-good" name="clean" value="good" />
+                <input
+                  type="radio"
+                  id="cl-good"
+                  name="clean"
+                  value="good"
+                  required
+                />
                 <label htmlFor="cl-good">Good</label>
-                <input type="checkbox" id="cl-fair" name="clean" value="fair" />
+                <input
+                  type="radio"
+                  id="cl-fair"
+                  name="clean"
+                  value="fair"
+                  required
+                />
                 <label htmlFor="cl-fair">Fair</label>
-                <input type="checkbox" id="cl-bad" name="clean" value="bad" />
+                <input
+                  type="radio"
+                  id="cl-bad"
+                  name="clean"
+                  value="bad"
+                  required
+                />
                 <label htmlFor="cl-bad">Bad</label>
               </div>
             </div>
@@ -121,17 +178,36 @@ const Form = () => {
               <br />
               <div className="check">
                 <input
-                  type="checkbox"
+                  type="radio"
                   id="exp-excellent"
                   name="exp"
                   value="excellent"
+                  required
                 />
                 <label htmlFor="exp-excellent">Excellent</label>
-                <input type="checkbox" id="exp-good" name="exp" value="good" />
+                <input
+                  type="radio"
+                  id="exp-good"
+                  name="exp"
+                  value="good"
+                  required
+                />
                 <label htmlFor="exp-good">Good</label>
-                <input type="checkbox" id="exp-fair" name="exp" value="fair" />
+                <input
+                  type="radio"
+                  id="exp-fair"
+                  name="exp"
+                  value="fair"
+                  required
+                />
                 <label htmlFor="exp-fair">Fair</label>
-                <input type="checkbox" id="exp-bad" name="exp" value="bad" />
+                <input
+                  type="radio"
+                  id="exp-bad"
+                  name="exp"
+                  value="bad"
+                  required
+                />
                 <label htmlFor="exp-bad">Bad</label>
               </div>
             </div>
