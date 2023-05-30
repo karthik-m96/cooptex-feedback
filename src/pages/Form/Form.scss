@@ -1,91 +1,93 @@
-.right {
-  background-color: rgb(249, 249, 249);
-  max-width: 600px;
-  padding: 5px 20px;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  border-radius: 10px;
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-  .nameEmail {
-    display: flex;
-    gap: 150px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-    input {
-      line-height: 33px;
-      border-radius: 5px;
-      border: 1px solid lightgray;
-      width: 200px;
-      margin-top: 5px;
-      margin-bottom: 15px;
-    }
-  }
-
-  .qos,
-  .pos,
-  .clean,
-  .exp {
-    margin-top: 25px;
-    margin-bottom: 25px;
-
-    .check {
-      display: flex;
-      align-items: center;
-      justify-items: center;
-      gap: 8px;
-    }
-
-    input[type="checkbox"] {
-      height: 20px;
-      width: 20px;
-      cursor: pointer;
-      accent-color: #ffb90f;
-    }
-
-    label {
-      cursor: pointer;
-    }
-  }
-
-  button {
-    font-family: poppins, sans-serif;
-    background-color: #ffb90f;
-    height: 40px;
-    width: 100px;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 25px;
-
-    &:hover {
-      background-color: #ffb90f;
-      border: 1px solid #ff8500;
-      cursor: pointer;
-    }
-  }
-}
-
-.left {
-  max-width: 600px;
-  padding: 5px 20px;
-  position: absolute;
-  top: 20%;
-  left: 1%;
-
-  .heading {
-    font-size: 40px;
-    font-weight: 500;
-  }
-
-  .feedText {
-    color: #ffb90f;
-  }
-
-  img {
-    width: 650px;
-    height: 548px;
+  .right {
+    background-color: rgb(252, 252, 252);
+    max-width: 600px;
+    padding: 5px 20px;
     border-radius: 10px;
+
+    .nameEmail {
+      display: flex;
+      gap: 100px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+      input {
+        line-height: 33px;
+        border-radius: 5px;
+        border: 1px solid rgb(183, 183, 183);
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 3px;
+      }
+    }
+
+    .qos,
+    .pos,
+    .clean,
+    .exp {
+      margin-top: 25px;
+      margin-bottom: 25px;
+
+      .check {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 8px;
+      }
+
+      input[type="checkbox"] {
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        accent-color: #ffb90f;
+      }
+
+      label {
+        cursor: pointer;
+      }
+    }
+
+    button {
+      font-family: poppins, sans-serif;
+      background-color: #ffb90f;
+      height: 40px;
+      width: 100px;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      margin-bottom: 25px;
+
+      &:hover {
+        background-color: #ffb90f;
+        border: 1px solid #ff8500;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .left {
+    max-width: 600px;
+    padding: 5px 20px;
+    margin-top: 20px;
+
+    .heading {
+      font-size: 40px;
+      font-weight: 500;
+    }
+
+    .feedText {
+      color: #ffb90f;
+    }
+
+    img {
+      width: 650px;
+      height: 600px;
+      border-radius: 10px;
+    }
   }
 }
