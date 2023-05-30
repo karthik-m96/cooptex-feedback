@@ -50,6 +50,17 @@
       }
     }
 
+    .phone {
+      input {
+        line-height: 33px;
+        border-radius: 5px;
+        border: 1px solid rgb(183, 183, 183);
+        width: 200px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 3px;
+      }
+    }
     .qos,
     .pos,
     .clean,
@@ -83,19 +94,27 @@
     }
 
     button {
-      font-family: poppins, sans-serif;
-      background-color: #ffb90f;
-      height: 40px;
-      width: 100px;
+      width: 140px;
+      height: 45px;
+      font-family: "Roboto", sans-serif;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      background-color: #fff;
       border: none;
-      border-radius: 5px;
-      text-align: center;
-      margin-bottom: 25px;
+      border-radius: 45px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      outline: none;
 
       &:hover {
-        background-color: #ffb90f;
-        border: 1px solid #ff8500;
-        cursor: pointer;
+        background-color: #2ee59d;
+        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        transform: translateY(-7px);
       }
     }
   }

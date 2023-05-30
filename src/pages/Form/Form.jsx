@@ -1,6 +1,5 @@
 import React from "react";
 import "./Form.scss";
-import Phone from "../../components/Phone/Phone";
 
 const Form = () => {
   return (
@@ -50,7 +49,18 @@ const Form = () => {
               />
             </div>
           </div>
-          <Phone />
+          <div className="phone">
+            <label htmlFor="phone">Phone Number:</label>
+            <br />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              required
+              pattern="[0-9]{10}"
+              placeholder="Enter your Phone number"
+            />
+          </div>
           <div className="questions">
             <div className="qos">
               <label htmlfor="qos">
@@ -212,7 +222,9 @@ const Form = () => {
               </div>
             </div>
           </div>
-          <button type="submit">Submit</button>
+          <div className="submit">
+            <button type="submit">Submit</button>
+          </div>
         </form>
       </div>
     </div>
