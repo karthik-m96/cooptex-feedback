@@ -51,7 +51,7 @@ const Form = () => {
             <div className="qos">
               <label htmlfor="qos">
                 Please rate the quality of service you received from the
-                Cooptex:
+                Cooptex?
               </label>
               <br />
               <div className="check">
