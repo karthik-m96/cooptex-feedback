@@ -20,7 +20,7 @@ const Form = () => {
         </div>
       </div>
       <div className="right">
-        <form className="container">
+        <form className="container" data-netlify="true">
           <h3>
             We are committed to providing you with the best shopping experience
             possible, so we welcome your feedback!
