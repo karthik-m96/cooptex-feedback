@@ -157,7 +157,8 @@
       .phone {
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        margin: 0;
+        gap: 2px;
 
         input {
           line-height: 33px;
