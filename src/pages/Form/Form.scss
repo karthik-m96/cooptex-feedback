@@ -2,12 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
-  .asterisk{
-    color: red;
-    font-weight: 700;
-    font-size: larger;
-  }
+  margin-bottom: 20px;
 
   .left {
     max-width: 600px;
@@ -24,7 +19,7 @@
 
     img {
       width: 600px;
-      height: 500px;
+      height: 528px;
       border-radius: 10px;
     }
 
@@ -38,6 +33,12 @@
     max-width: 600px;
     padding: 5px 20px;
     border-radius: 10px;
+
+    .asterisk {
+      color: red;
+      font-weight: 700;
+      font-size: larger;
+    }
 
     .nameEmail {
       display: flex;
@@ -95,7 +96,6 @@
         label {
           cursor: pointer;
           margin: 0px 40px 0px 10px;
-
         }
       }
     }
