@@ -40,12 +40,14 @@
       font-size: larger;
     }
 
-    .nameEmail {
-      display: flex;
-      gap: 100px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-
+    .nameEmailPhone {
+      .nameEmail {
+        display: flex;
+        gap: 100px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+    
       input {
         border-radius: 5px;
         border: 1px solid rgb(183, 183, 183);
@@ -56,16 +58,6 @@
       }
     }
 
-    .phone {
-      input {
-        border-radius: 5px;
-        border: 1px solid rgb(183, 183, 183);
-        width: 200px;
-        margin-top: 5px;
-        margin-bottom: 15px;
-        padding: 10px;
-      }
-    }
     .qos,
     .pos,
     .clean,
@@ -160,18 +152,26 @@
       background-color: rgb(252, 252, 252);
       border-radius: 10px;
 
-      .nameEmail,
-      .phone {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        gap: 2px;
+      h3 {
+        text-align: center;
+      }
 
+      .nameEmailPhone {
+        .nameEmail {
+          display: flex;
+          flex-direction: column;
+          margin:0;
+          padding:0;
+          
+        }
+      
         input {
-          line-height: 33px;
           border-radius: 5px;
           border: 1px solid rgb(183, 183, 183);
           width: 200px;
+          margin-top: 5px;
+          margin-bottom: 15px;
+          padding: 10px;
         }
       }
       .qos,

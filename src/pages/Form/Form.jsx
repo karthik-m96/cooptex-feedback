@@ -25,48 +25,51 @@ const Form = () => {
             We are committed to providing you with the best shopping experience
             possible, so we welcome your feedback!
           </h3>
-          <div className="nameEmail">
-            <div className="name">
-              <label htmlFor="cusName">
-                Customer Name: <span className="asterisk">*</span>
+          <div className="nameEmailPhone">
+            <div className="nameEmail">
+              <div className="name">
+                <label htmlFor="cusName">
+                  Customer Name: <span className="asterisk">*</span>
+                </label>
+                <br />
+                <input
+                  type="text"
+                  name="cusName"
+                  id="cusName"
+                  required
+                  placeholder="Enter the name"
+                />
+              </div>
+              <div className="email">
+                <label htmlFor="email">
+                  Email Address:<span className="asterisk">*</span>
+                </label>
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Enter the email address"
+                />
+              </div>
+            </div>
+            <div className="phone">
+              <label htmlFor="phone" className="phoneLabel">
+                Phone Number:<span className="asterisk">*</span>
               </label>
               <br />
               <input
-                type="text"
-                name="cusName"
-                id="cusName"
+                type="tel"
+                name="phone"
+                id="phone"
                 required
-                placeholder="Enter the name"
-              />
-            </div>
-            <div className="email">
-              <label htmlFor="email">
-                Email Address:<span className="asterisk">*</span>
-              </label>
-              <br />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                placeholder="Enter the email address"
+                pattern="[0-9]{10}"
+                placeholder="Enter your Phone number"
               />
             </div>
           </div>
-          <div className="phone">
-            <label htmlFor="phone">
-              Phone Number:<span className="asterisk">*</span>
-            </label>
-            <br />
-            <input
-              type="tel"
-              name="phone"
-              id="phone"
-              required
-              pattern="[0-9]{10}"
-              placeholder="Enter your Phone number"
-            />
-          </div>
+
           <div className="questions">
             <div className="qos">
               <label htmlfor="qos">
@@ -111,7 +114,8 @@ const Form = () => {
             </div>
             <div className="pos">
               <label htmlFor="pos">
-                Please rate the quality of our product? <span className="asterisk">*</span>
+                Please rate the quality of our product?{" "}
+                <span className="asterisk">*</span>
               </label>
               <br />
               <div className="check">
@@ -150,7 +154,9 @@ const Form = () => {
               </div>
             </div>
             <div className="clean">
-              <label for="clean">Was our premises clean?<span className="asterisk">*</span></label>
+              <label for="clean">
+                Was our premises clean?<span className="asterisk">*</span>
+              </label>
               <br />
               <div className="check">
                 <input
@@ -189,7 +195,8 @@ const Form = () => {
             </div>
             <div className="exp">
               <label htmlFor="exp-excellent">
-                Please rate your overall shopping experience?<span className="asterisk">*</span>
+                Please rate your overall shopping experience?
+                <span className="asterisk">*</span>
               </label>
               <br />
               <div className="check">
