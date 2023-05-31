@@ -21,7 +21,7 @@ const Form = () => {
         </div>
       </div>
       <div className="right">
-        <form className="container" action="POST" data-netlify="true">
+        <form className="container" method="POST" data-netlify="true">
           <h3>
             We are committed to providing you with the best shopping experience
             possible, so we welcome your feedback!
