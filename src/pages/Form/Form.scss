@@ -128,7 +128,8 @@
   .form {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
     .left {
       text-align: center;
 
@@ -151,22 +152,30 @@
     .right {
       background-color: rgb(252, 252, 252);
       border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px;
 
       h3 {
         text-align: center;
+        margin: 0;
+        padding: 0;
       }
 
       .nameEmailPhone {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 0;
-        padding:0;
+        padding: 0;
         .nameEmail {
           display: flex;
           flex-direction: column;
           gap: 0;
           margin: 0;
-          padding:0;
+          padding: 0;
         }
 
         input {
@@ -178,12 +187,40 @@
           padding: 10px;
         }
       }
-      .qos,
-      .pos,
-      .clean,
-      .exp {
-        margin-top: 25px;
-        margin-bottom: 25px;
+
+      .questions {
+        font-size: 15px;
+
+        .check {
+          display: flex;
+          align-items: center;
+          padding-top: 10px;
+          margin: 0;
+          padding: 0;
+
+          input[type="radio"] {
+            appearance: none;
+            -webkit-appearance: none;
+            height: 14px;
+            width: 14px;
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid rgb(185, 184, 184);
+            border-radius: 4px;
+            margin: 0;
+            padding: 0;
+          }
+
+          input[type="radio"]:checked {
+            background-color: #ffb90f;
+          }
+
+          label {
+            cursor: pointer;
+            margin:10px;
+
+          }
+        }
       }
     }
   }
