@@ -3,7 +3,9 @@ import "./Submission.scss"
 
 const Submission = () => {
   return (
-    <div className='submission'>Submission</div>
+    <div className='submission'>
+      
+    </div>
   )
 }
 
