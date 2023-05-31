@@ -20,14 +20,16 @@ const Form = () => {
         </div>
       </div>
       <div className="right">
-        <form className="container" data-netlify="true">
+        <form className="container">
           <h3>
             We are committed to providing you with the best shopping experience
             possible, so we welcome your feedback!
           </h3>
           <div className="nameEmail">
             <div className="name">
-              <label htmlFor="cusName">Customer Name:</label>
+              <label htmlFor="cusName">
+                Customer Name: <span className="asterisk">*</span>
+              </label>
               <br />
               <input
                 type="text"
@@ -38,7 +40,9 @@ const Form = () => {
               />
             </div>
             <div className="email">
-              <label htmlFor="email">Email Address:</label>
+              <label htmlFor="email">
+                Email Address:<span className="asterisk">*</span>
+              </label>
               <br />
               <input
                 type="email"
@@ -50,7 +54,9 @@ const Form = () => {
             </div>
           </div>
           <div className="phone">
-            <label htmlFor="phone">Phone Number:</label>
+            <label htmlFor="phone">
+              Phone Number:<span className="asterisk">*</span>
+            </label>
             <br />
             <input
               type="tel"
@@ -65,7 +71,7 @@ const Form = () => {
             <div className="qos">
               <label htmlfor="qos">
                 Please rate the quality of service you received from the
-                Cooptex?
+                Cooptex?<span className="asterisk">*</span>
               </label>
               <br />
               <div className="check">
@@ -105,7 +111,7 @@ const Form = () => {
             </div>
             <div className="pos">
               <label htmlFor="pos">
-                Please rate the quality of our product:
+                Please rate the quality of our product? <span className="asterisk">*</span>
               </label>
               <br />
               <div className="check">
@@ -144,7 +150,7 @@ const Form = () => {
               </div>
             </div>
             <div className="clean">
-              <label for="clean">Was our premises clean?</label>
+              <label for="clean">Was our premises clean?<span className="asterisk">*</span></label>
               <br />
               <div className="check">
                 <input
@@ -183,7 +189,7 @@ const Form = () => {
             </div>
             <div className="exp">
               <label htmlFor="exp-excellent">
-                Please rate your overall shopping experience?
+                Please rate your overall shopping experience?<span className="asterisk">*</span>
               </label>
               <br />
               <div className="check">
