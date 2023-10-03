@@ -21,7 +21,7 @@ const Form = () => {
         </div>
       </div>
       <div className="right">
-        <form className="container" name="cooptex-feedback" method="POST" netlify>
+        <form className="container" name="cooptex-feedback" netlify>
           <h3>
             We are committed to providing you with the best shopping experience
             possible, so we welcome your feedback!
