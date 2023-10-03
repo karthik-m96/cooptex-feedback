@@ -17,7 +17,7 @@ const Form = () => {
           possible, so we welcome your comments.
         </p>
         <div className="img">
-          <img src="/img/cooptex cropped.jpg" alt="" />
+          <img src="/img/cooptex.jpg" alt="cooptex" />
         </div>
       </div>
       <div className="right">
