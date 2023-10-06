@@ -11,17 +11,15 @@ const Form = () => {
           <div>
             Us your <span className="feedText">Feedback.</span>
           </div>
+        <br/>
+
         </div>
-        <p className="para">
-          We are commited to providing you with the best shopping experience
-          possible, so we welcome your comments.
-        </p>
         <div className="img">
           <img src="/img/cooptex.jpg" alt="cooptex" />
         </div>
       </div>
       <div className="right">
-        <form className="container" name="cooptex-feedback" netlify>
+        <form className="container" name="cooptex-feedback" method="POST" data-netlify="true" netlify>
           <h3>
             We are committed to providing you with the best shopping experience
             possible, so we welcome your feedback!
